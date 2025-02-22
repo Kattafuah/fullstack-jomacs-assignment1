@@ -135,7 +135,7 @@ nav ul li a {
   
     .container {
       width: 100%;
-      display: block;
+      display: inline-flex;
       margin-bottom: 30px;
       text-align: justify;
     }
@@ -152,5 +152,8 @@ nav ul li a {
         text-orientation: sideways-right;
     }
 
-    
+      .container * {
+    flex-basis: 100px;
   }
+  }
+
